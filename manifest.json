@@ -6,7 +6,7 @@
   "description": "Mathemorphosis translates mathematical expressions into beautifully formatted text.",
   
   "browser_action": {
-    "default_icon": "images/xsquared_active_512.png", 
+    "default_icon": "images/mathemorphosis_icon_active_512.png", 
     "default_popup": "index.html"
   },
 
