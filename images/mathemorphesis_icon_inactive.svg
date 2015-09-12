@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40"
-   height="40"
+   width="128"
+   height="128"
    id="svg4233"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -38,7 +38,7 @@
        x2="2.2325809"
        y2="16.118742"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0168934,0,0,0.98896036,5.7297031,-3.9407977)" />
+       gradientTransform="matrix(3.2540589,0,0,3.1646732,13.93505,-83.010553)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4402"
@@ -47,7 +47,8 @@
        y1="12"
        x2="42"
        y2="12"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.2,0,0,3.2,-4.4,-70.4)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -56,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.197802"
-     inkscape:cx="20.032351"
-     inkscape:cy="19.576983"
+     inkscape:zoom="2.7994505"
+     inkscape:cx="69.654688"
+     inkscape:cy="49.778807"
      inkscape:current-layer="layer5"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -89,22 +90,22 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="outerGradient"
-     transform="translate(-2,8)">
+     transform="translate(-2,96)">
     <rect
-       style="fill:url(#linearGradient4438);fill-opacity:0.94117647000000004"
+       style="fill:url(#linearGradient4438);fill-opacity:0.94117647"
        id="rect4411"
-       width="40"
-       height="40"
+       width="128"
+       height="128"
        x="2"
-       y="-8"
-       rx="13.333332"
-       ry="4.9762235" />
+       y="-96"
+       rx="42.666664"
+       ry="15.923915" />
   </g>
   <g
      id="layer1"
      inkscape:label="innerGradient"
      inkscape:groupmode="layer"
-     transform="translate(-2,8)">
+     transform="translate(-2,96)">
     <rect
        style="fill:#ffffff;fill-opacity:0.94117647"
        id="rect4241"
@@ -117,31 +118,32 @@
     <rect
        style="fill:url(#linearGradient4408);fill-opacity:1"
        id="rect4400"
-       width="28"
-       height="32"
-       x="8"
-       y="-4"
-       ry="5.2250347"
-       rx="14" />
+       width="89.599998"
+       height="102.4"
+       x="21.200001"
+       y="-83.199997"
+       ry="16.720112"
+       rx="44.799999" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="text">
+     inkscape:label="text"
+     transform="translate(0,88)">
     <text
        xml:space="preserve"
-       style="font-size:81.89364624px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
-       x="6.4022522"
-       y="32.297512"
+       style="font-size:262.05966187px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="20.487207"
+       y="7.1359"
        id="text4441"
        sodipodi:linespacing="125%"
        transform="scale(1.0933652,0.91460748)"><tspan
          sodipodi:role="line"
          id="tspan4443"
-         x="6.4022522"
-         y="32.297512"
-         style="font-size:26.61543654999999831px;fill:#000000;fill-opacity:1">X<tspan
-   style="font-size:18.89252662999999899px;baseline-shift:super;fill:#000000;fill-opacity:1"
+         x="20.487207"
+         y="7.1359"
+         style="font-size:85.16939545px;fill:#000000;fill-opacity:1">X<tspan
+   style="font-size:60.45608521px;baseline-shift:super;fill:#000000;fill-opacity:1"
    id="tspan4445">2</tspan></tspan></text>
   </g>
 </svg>
