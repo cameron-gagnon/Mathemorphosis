@@ -4,9 +4,9 @@
   "version": "1.0",
 
   "description": "Mathemorphosis translates mathematical expressions into beautifully formatted text.",
-  
+
   "browser_action": {
-    "default_icon": "images/xsquared_inactive.png", 
+    "default_icon": "images/xsquared_inactive.png",
     "default_popup": "index.html"
   },
 
@@ -15,7 +15,7 @@
     "48": "./images/xsquared_inactive_48px.png",
     "128": "./images/xsquared_inactive_128px.png"
   },
-  
+
   "background":{
     "persistent": false,
     "scripts": ["./scripts/MathJax/MathJax.js", "./scripts/main.js"]
