@@ -8,11 +8,19 @@ chrome.runtime.onInstalled.addListener(function () {
 });
 
 
-function onClickHandler(info) {
-    var sText = info.selectionText;
-    var url = "https://www.google.com/search?q=" + encodeURIComponent(sText);
-    window.open(url, '_blank');
-    console.log("Opening url " + url);
+function onClickHandler(e) {
+    var sel_text = e.selectionText;
+    var jax;
+    MathJax.Hub.Queue(
+        ["Typeset", MathJax.Hub, "preview"],
+            function () {jax = MathJax.Hub.getAllJax("preview")[0]}
+    );
+    MathJax.Hub.Queue(["Text", jax, sel_text]);
+    popup("../popup.html");
+}
+
+function popup(url) {
+    window.open(url, "window", "width=300,height=260,top=150, left=300,status=yes");
 }
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
