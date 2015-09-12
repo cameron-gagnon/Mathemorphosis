@@ -10,11 +10,12 @@ body {
 input[type=submit] {
   padding: 5px; 
   margin: 10px; 
-  background:#ccc;
+  background:#FE7657;
+  color:#ffffff;
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 #status {
@@ -25,6 +26,20 @@ input[type=submit] {
   max-width: 400px;
 }
 
-#user-input#expression {
-  width: 250;
+#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid #fe7657;
+  padding: 20px;
+}
+
+#button {
+  position:relative;
+  text-align:right;
+}
+
+#userinput {
+  margin-top:10px;
+}
+#title{
+  text-align: center;
 }

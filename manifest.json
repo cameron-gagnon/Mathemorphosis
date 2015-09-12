@@ -3,7 +3,7 @@
   "name": "Mathemorphosis",
   "version": "1.0",
 
-  "description": "Mathemorphosis translates and reformats mathematical expressions into beautifully formatted text.",
+  "description": "Mathemorphosis translates mathematical expressions into beautifully formatted text.",
   
   "browser_action": {
     "default_icon": "images/xsquared.png", 
@@ -29,5 +29,6 @@
 //  "web_accessible_resources": [
 //    "./scripts/MathJax/*"
 //  ]
+//
  
 }
