@@ -17,7 +17,7 @@ function onClickHandler(e) {
     });
 
     MathJax.Hub.Queue(["Text", jax, sel_text]);
-    popup("../floatingbox.js");
+    popup("../popup.html");
 }
 
 function popup(url) {
