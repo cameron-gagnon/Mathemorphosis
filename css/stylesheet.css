@@ -26,7 +26,7 @@ input[type=submit] {
   max-width: 400px;
 }
 
-#rcorners {
+#rcorners1 {
   border-radius: 25px;
   border: 2px solid #fe7657;
   padding: 20px;
@@ -39,5 +39,7 @@ input[type=submit] {
 
 #userinput {
   margin-top:10px;
-
+}
+#title{
+  text-align: center;
 }
