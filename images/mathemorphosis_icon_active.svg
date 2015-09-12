@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   id="svg4233"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mathemorphesis_icon_active.svg">
+  <defs
+     id="defs4235">
+    <linearGradient
+       id="linearGradient4402">
+      <stop
+         style="stop-color:#ef7657;stop-opacity:1;"
+         offset="0"
+         id="stop4404" />
+      <stop
+         style="stop-color:#fe97a5;stop-opacity:1;"
+         offset="1"
+         id="stop4406" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4402"
+       id="linearGradient4408"
+       x1="29.767424"
+       y1="16.118742"
+       x2="2.2325809"
+       y2="16.118742"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.254059,0,0,3.1646732,13.935049,-83.010553)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4402"
+       id="linearGradient4438"
+       x1="2"
+       y1="12"
+       x2="42"
+       y2="12"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.2000001,0,0,3.2000001,-4.4000014,-70.400001)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9795104"
+     inkscape:cx="14.77274"
+     inkscape:cy="90.615089"
+     inkscape:current-layer="layer5"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="1.0269563e-15"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="971"
+     inkscape:window-height="772"
+     inkscape:window-x="563"
+     inkscape:window-y="205"
+     inkscape:window-maximized="0"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata4238">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="outerGradient"
+     transform="translate(-2,96)">
+    <rect
+       style="fill:url(#linearGradient4438);fill-opacity:0.94117647"
+       id="rect4411"
+       width="128"
+       height="128"
+       x="2"
+       y="-96"
+       rx="42.666664"
+       ry="15.923915" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:label="innerGradient"
+     inkscape:groupmode="layer"
+     transform="translate(-2,96)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.94117647"
+       id="rect4241"
+       x="1.0577599e-07"
+       y="-0.14916624"
+       rx="32"
+       ry="32"
+       width="0"
+       height="0" />
+    <rect
+       style="fill:url(#linearGradient4408);fill-opacity:1"
+       id="rect4400"
+       width="89.600006"
+       height="102.4"
+       x="21.199997"
+       y="-83.199997"
+       ry="16.720112"
+       rx="44.800003" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="text"
+     transform="translate(0,88)">
+    <text
+       xml:space="preserve"
+       style="font-size:262.05969238px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="20.487206"
+       y="7.1359024"
+       id="text4441"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0933652,0.91460748)"><tspan
+         sodipodi:role="line"
+         id="tspan4443"
+         x="20.487206"
+         y="7.1359024"
+         style="font-size:85.16939545px;fill:#ffffff;fill-opacity:1">X<tspan
+   style="font-size:60.45608902px;baseline-shift:super;fill:#ffffff;fill-opacity:1"
+   id="tspan4445">2</tspan></tspan></text>
+  </g>
+</svg>
