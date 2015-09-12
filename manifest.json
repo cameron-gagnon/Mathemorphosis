@@ -6,11 +6,8 @@
   "description": "Mathemorphosis translates mathematical expressions into beautifully formatted text.",
 
   "browser_action": {
-<<<<<<< HEAD
     "default_icon": "images/xsquared_inactive.png",
-=======
-    "default_icon": "images/mathemorphosis_icon_active_512px.png", 
->>>>>>> 83a2913af3593fb7a4b66f560a29015a8901ec58
+    "default_icon": "images/mathemorphosis_icon_active_512px.png",
     "default_popup": "index.html"
   },
 
@@ -24,7 +21,7 @@
     "persistent": false,
     "scripts": ["./scripts/MathJax/MathJax.js", "./scripts/main.js"]
   },
-  
+
   "permissions": [
     "contextMenus",
     "tabs"
