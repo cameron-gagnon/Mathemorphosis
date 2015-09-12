@@ -5,11 +5,11 @@
 
 
   "default_locale": "en",
-  "description": "Mathemorphosis translates and reformats mathematical expressions into beautifully formatted text."
+  "description": "Mathemorphosis translates and reformats mathematical expressions into beautifully formatted text.",
   
 
   "browser_action": {
-    "default_icon": "xSquared.png", 
+    "default_icon": "images/xSquared.png", 
     "default_popup": "popup.html"
     },
  
