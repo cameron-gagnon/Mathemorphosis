@@ -5,7 +5,7 @@
 
 
   "default_locale": "en",
-  "description": "Mathemorphosis translates and reformats mathematical expressions into beautifully formatted text."
+  "description": "Mathemorphosis translates and reformats mathematical expressions into beautifully formatted text.",
   
 
   "browser_action": {
