@@ -1,16 +1,36 @@
-window.onload = function(){
-    chrome.contextMenus.create({
-        id: "stringToTex",
-        title: "Mathemorphosize",
-        contexts: ["launcher", "all"],
-        onclick: contextClicked(
-    }, function(){
-        console.log(chrome.runtime.lastError);
-    });
+"use strict";
+chrome.runtime.onInstalled.addListener(function () {
+    var context = "selection";
+    var title = "Mathemorphosize";
+    var id = chrome.contextMenus.create({title: title,
+                                         contexts: [context],
+                                         id: "context" + context});
+});
 
-    chrome.contextMenus.onClicked.addListener(contextClicked.bind(this));
-};
 
-function contextClicked(e){
-    console.log(e.menuItemId);
+function onClickHandler(info) {
+    var sText = info.selectionText;
+    var url = "https://www.google.com/search?q=" + encodeURIComponent(sText);
+    window.open(url, '_blank');
+    console.log("Opening url " + url);
 }
+
+chrome.contextMenus.onClicked.addListener(onClickHandler);
+
+/*"use strict"
+chrome.runtime.onInstalled.addListener(function (){
+    var context = "selection";
+    var title = "Mathemorphosize";
+    var id = chrome.contextMenus.create({"title": title,
+                                         "contexts": [context],
+                                         "id": "context" + context});
+});
+
+chrome.contextMenus.onClicked.addListener(onClickHandler);
+
+function onClickHandler(info, tab){
+    var sText = info.selectionText;
+    var url = "https://www.google.com/search?q=" + encodeURIComponent(sText);
+    window.open(url, '_blank');
+    console.log("Opening url " + url);
+}*/
