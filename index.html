@@ -1,0 +1,31 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html". Derived from chrome's "getting started extension's popup".
+ -->
+<html>
+  <head>
+    <title>Mathemorphosis Extension Popup</title>
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+<!--    <script src="./scripts/popup.js"></script>-->
+    <script type="text/javascript" src="./scripts/MathJax/MathJax.js">
+    </script>
+  </head>
+  <body>
+    <h2 id="title">Mathemorphosis</h2>
+    <p1 id="prompt">Enter your expression here:</p1>  
+    <br>
+    <!--<input type="text" id="expression" name="expression">-->
+    <textarea rows="4", cols="25" autofocus></textarea>
+    <br>
+    <input type="submit" id="submit"></input>
+  </body>
+</html>
+
