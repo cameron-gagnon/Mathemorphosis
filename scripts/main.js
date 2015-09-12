@@ -11,12 +11,6 @@ function onClickHandler(e) {
     var sel_text = e.selectionText;
     var jax;
     // Does not access the document so MathJax is not doing anything
-
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]);
-//,
-//            function () {jax = MathJax.Hub.getAllJax("preview")[0]
-//    });
-/*    MathJax.Hub.Queue(["Text", jax, sel_text]);*/
     var pop = popup("../popup.html", e);
 }
 
@@ -26,9 +20,6 @@ function popup(url, e) {
         for(var i in windows) {
             if(windows[i].location.pathname == "/popup.html") {
                 windows[i].document.getElementById("highlighted").innerHTML = '<img src="https://chart.googleapis.com/chart?cht=tx&chl=' + encodeURIComponent(e.selectionText) + '"/>';
-                windows[i].setTimeout(function() {
-                    //windows[i].MathJax.Hub.Queue(["Typeset", windows[i].MathJax.Hub, "highlighted"], function () {jax = MathJax.Hub.getAllJax("highlighted")[0]});
-                }, 5000);
             }
         }
     });
