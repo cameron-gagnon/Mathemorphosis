@@ -45,8 +45,3 @@ input[type=submit] {
   margin-right: auto;
   margin-left:auto;
 }
-#box {
-  border-radius:25px;
-  border:2px solid #fe7657;
-  padding: 20px;
-}
