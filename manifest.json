@@ -7,7 +7,7 @@
   
   "browser_action": {
     "default_icon": "images/xsquared.png", 
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
 
   "icons": {
@@ -26,9 +26,4 @@
     "tabs"
   ]
 
-//  "web_accessible_resources": [
-//    "./scripts/MathJax/*"
-//  ]
-//
- 
 }
