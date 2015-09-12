@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -169,9 +169,9 @@
            height="121.53398"
            x="-132.58252"
            y="-369.65436" /></flowRegion><flowPara
-         id="flowPara8930"></flowPara></flowRoot>    <g
+         id="flowPara8930" /></flowRoot>    <g
        id="g9203"
-       transform="matrix(7,0,0,7,1550.3307,772.36917)">
+       transform="matrix(7,0,0,7,1550,772.36917)">
       <g
          transform="translate(-2,8)"
          inkscape:label="outerGradient"
