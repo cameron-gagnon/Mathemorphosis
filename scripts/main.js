@@ -8,30 +8,27 @@ chrome.runtime.onInstalled.addListener(function () {
 
 
 function onClickHandler(e) {
-    var pop = popup("../popup.html");
     var sel_text = e.selectionText;
     var jax;
     // Does not access the document so MathJax is not doing anything
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "math"],
-            function () {jax = MathJax.Hub.getAllJax("math")[0]
-    });
 
     MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]);
 //,
 //            function () {jax = MathJax.Hub.getAllJax("preview")[0]
 //    });
 /*    MathJax.Hub.Queue(["Text", jax, sel_text]);*/
-    popup("../index.html", e);
+    var pop = popup("../popup.html", e);
 }
 
 function popup(url, e) {
     chrome.windows.create({'url': url, 'type': 'panel', 'height': 260, 'width': 300, 'top': 150, 'left': 300}, function(newWindow) {
         var windows = chrome.extension.getViews();
         for(var i in windows) {
-            if(windows[i].location.pathname == "/index.html") {
+            if(windows[i].location.pathname == "/popup.html") {
+                windows[i].document.getElementById("highlighted").innerHTML = '<img src="https://chart.googleapis.com/chart?cht=tx&chl=' + encodeURIComponent(e.selectionText) + '"/>';
                 windows[i].setTimeout(function() {
-                    windows[i].document.getElementById("userinput").value = e.selectionText;
-                }, 1000);
+                    //windows[i].MathJax.Hub.Queue(["Typeset", windows[i].MathJax.Hub, "highlighted"], function () {jax = MathJax.Hub.getAllJax("highlighted")[0]});
+                }, 5000);
             }
         }
     });
