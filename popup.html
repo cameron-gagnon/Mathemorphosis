@@ -2,11 +2,11 @@
 <!--
  This page is shown when the extension button is clicked, because the
  "browser_action" field in manifest.json contains the "default_popup" key with
- value "popup.html".
+ value "popup.html". Derived from chrome's "getting started extension's popup".
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>Mathemorphosis Extension Popup</title>
     <style>
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
@@ -30,8 +30,12 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div id="status"></div>
-    <img id="image-result" hidden>
+    <h1>Mathemorphosis</h1>
+    <h3>Enter your expression here</h3>  
+    <div id = "user input">
+    <input type ="text" name="math expression" style="width:200px">
+    </div>
+    <button type="button">Submit</button>
   </body>
 </html>
 
