@@ -18,15 +18,15 @@ function popup(url, e) {
     chrome.windows.create({'url': url, 'type': 'panel', 'height': 260, 'width': 300, 'top': 150, 'left': 300}, function(newWindow) {
         var windows = chrome.extension.getViews();
         var found = false;
-        for(var i in windows) {
-            if(windows[i].location.pathname == "/popup.html" && !found) {
+        windows.forEach(function(data, elem) {
+            if(data.location.pathname == "/popup.html" && !found) {
                 found = true;
-                windows[i].document.getElementById("highlighted").innerHTML = '<img src="https://chart.googleapis.com/chart?cht=tx&chl=' + encodeURIComponent(e.selectionText) + '"/>';
-                windows[i].focus();
+                data.document.getElementById("highlighted").innerHTML = '<img src="https://chart.googleapis.com/chart?cht=tx&chl=' + encodeURIComponent(e.selectionText) + '"/>';
+                data.focus();
             } else {
-                windows[i].close();
+                data.close();
             }
-        }
+        });
     });
 }
 
