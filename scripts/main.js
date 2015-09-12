@@ -8,22 +8,21 @@ chrome.runtime.onInstalled.addListener(function () {
 
 
 function onClickHandler(e) {
+    var pop = popup("../popup.html");
     var sel_text = e.selectionText;
     var jax;
-    var QUEUE = MathJax.Hub.queue;
+    // Does not access the document so MathJax is not doing anything
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "math"],
+            function () {jax = MathJax.Hub.getAllJax("math")[0]
+    });
 
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "preview"]);
-//,
-//            function () {jax = MathJax.Hub.getAllJax("preview")[0]
-//    });
-/*    MathJax.Hub.Queue(["Text", jax, sel_text]);*/
-    popup("../index.html");
+    MathJax.Hub.Queue(["Text", jax, sel_text]);
+    popup("../popup.html");
 }
 
 function popup(url) {
-    window.open(url, "window", "width=300,height=260,top=150, left=300,status=yes");
+    return window.open(url, "window", "width=300,height=260,top=150, left=300,status=yes");
 }
 
-//popup("../index.html");
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
