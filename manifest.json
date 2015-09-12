@@ -18,7 +18,7 @@
   
   "background":{
     "persistent": false,
-    "scripts": ["./scripts/main.js", "./scripts/MathJax/MathJax.js"]
+    "scripts": ["./scripts/MathJax/MathJax.js", "./scripts/main.js"]
   },
   
   "permissions": [
