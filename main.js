@@ -3,7 +3,7 @@ window.onload = function(){
         id: "stringToTex",
         title: "Mathemorphosize",
         contexts: ["launcher", "all"],
-
+        onclick: contextClicked(
     }, function(){
         console.log(chrome.runtime.lastError);
     });
