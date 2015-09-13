@@ -1,5 +1,5 @@
 window.onload = function() {
-    setTimeout(function(){
+    setTimeout( function(){
         document.getElementById('submit').onclick = function() {
             var vals_to_format = document.getElementById('userinput').value;
             chrome.tabs.create({url: '../popup.html?=' + vals_to_format}, function (callback) {
