@@ -6,33 +6,24 @@ chrome.runtime.onInstalled.addListener(function () {
                                          id: "context" + context});
 });
 
-
-function requestMouseLoc() {
-  chrome.runtime.sendMessage({greeting: "mouse_loc"}, function(response){
-    return response; 
+function receiveMouseLoc() {
+  chrome.runtime.onMessage.addListener(function(message, sender, send_response){
+    if(message.mouse_loc){
+        alert(message);
+        console.log(message);
+    }
   }); 
 }
 
-function get_mouse() {
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      chrome.tabs.sendMessage(tabs[0].id, {greeting: "mouse_loc"}, function(response) {
-        console.log(response); 
-        return response;
-      });
-    });
-};
-
 function onClickHandler(e) {
-    mouse_data = get_mouse();
+    mouse_data = receiveMouseLoc();
+    console.assert(mouse_data !== null); 
     var sel_text = e.selectionText;
-    var pop = popup("../popup.html", e, mouse_data);
+    popup("../popup.html", e);
 }
 
-
-function popup(url, e, mouse_data) {
-    console.log(e);
-    console.log(mouse_data);
-    chrome.windows.create({'url': url, 'type': 'panel', 'height': 100, 'width': 300, 'top': 550, 'left': 300}, function(newWindow) {
+function popup(url, e) {
+    chrome.windows.create({'url': url, 'type': 'panel', 'height': 125, 'width': 300, 'top': 130, 'left': 750}, function(newWindow) {
         setTimeout(function () { 
             var windows = chrome.extension.getViews();
             var found = false;

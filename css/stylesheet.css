@@ -23,7 +23,7 @@ input[type=submit] {
   white-space: pre;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 400px;
+  /*max-width: 400px;*/
 }
 
 #rcorners1 {
@@ -45,4 +45,11 @@ input[type=submit] {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+#highlighted{
+  white-space: nowrap;
+/*  overflow-y: hidden;*/
+/*  overflow-x: hidden;*/
+  max-width: 335px;
 }
