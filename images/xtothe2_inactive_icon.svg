@@ -82,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -132,18 +132,16 @@
      transform="translate(0,88)">
     <text
        xml:space="preserve"
-       style="font-size:262.05966187px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
-       x="20.487207"
-       y="7.1359"
+       style="font-size:166.0916748px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="13.433735"
+       y="53.855099"
        id="text4441"
        sodipodi:linespacing="125%"
-       transform="scale(1.0933652,0.91460748)"><tspan
+       transform="matrix(0.6077326,-0.82275721,0.76236568,0.61335881,0,0)"><tspan
          sodipodi:role="line"
          id="tspan4443"
-         x="20.487207"
-         y="7.1359"
-         style="font-size:85.16939545px;fill:#000000;fill-opacity:1">X<tspan
-   style="font-size:60.45608521px;baseline-shift:super;fill:#000000;fill-opacity:1"
-   id="tspan4445">2</tspan></tspan></text>
+         x="13.433735"
+         y="53.855099"
+         style="font-size:53.97980118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans">X^2</tspan></text>
   </g>
 </svg>
