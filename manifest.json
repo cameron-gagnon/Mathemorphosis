@@ -20,10 +20,18 @@
     "persistent": false,
     "scripts": ["./scripts/main.js"]
   },
+  
+  "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["./scripts/mouselocation.js"],
+        "run_at": "document_start"
+  }],
 
   "permissions": [
     "contextMenus",
-    "tabs"
+    "tabs",
+    // for context_scripts to get mouse position to locate where the popup.html will go.
+    "<all_urls>"
   ]
 
 }

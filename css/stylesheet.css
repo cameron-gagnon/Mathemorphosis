@@ -1,19 +1,19 @@
-#enter-form {
-  padding: 10px;
-}
-
 body {
   font-family: "Segoe UI", "Lucida Grande", "Tahoma", "sans-serif";
   font-size: 14px;
 }
 
+#enter-form {
+  padding: 10px;
+}
+
 input[type=submit] {
   padding: 5px; 
   margin: 10px; 
-  background:#FE7657;
-  color:#ffffff;
-  border:0 none;
-  cursor:pointer;
+  background: #FE7657;
+  color: #ffffff;
+  border: 0 none;
+  cursor: pointer;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
@@ -33,15 +33,16 @@ input[type=submit] {
 }
 
 #button {
-  position:relative;
-  text-align:right;
+  position: relative;
+  text-align: right;
 }
 
 #userinput {
-  margin-top:10px;
+  margin-top: 10px;
 }
+
 #title{
-  display:block;
+  display: block;
   margin-right: auto;
-  margin-left:auto;
+  margin-left: auto;
 }
