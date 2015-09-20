@@ -6,3 +6,4 @@ TO DO:
   1. Track mouse location to enable popup to occur next to mouse click
   2. Add 'exit' and 'submit again' buttons to browser action
 2. Make firefox compatible 
+3. Make resolution higher for output png's
