@@ -39,5 +39,4 @@ function popup(url, e) {
         }, 25);
     });
 }
-
 chrome.contextMenus.onClicked.addListener(onClickHandler);
