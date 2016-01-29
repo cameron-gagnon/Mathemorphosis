@@ -13,7 +13,5 @@ function submitData(e, button){
         var img_tab = '<img src="https://chart.googleapis.com/chart?cht=tx&chl='
                       + encodeURIComponent(user_input) + '"/>';
         document.getElementById("img_area").innerHTML = img_tab;
-        document.getElementById("prompt").innerHTML = "Your transformed " + 
-                                                      "expression:";
     }
 }
