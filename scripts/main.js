@@ -36,7 +36,7 @@ function popup(url, e) {
                     data.close();
                 }
             });
-        }, 25);
+        }, 100);
     });
 }
 chrome.contextMenus.onClicked.addListener(onClickHandler);
