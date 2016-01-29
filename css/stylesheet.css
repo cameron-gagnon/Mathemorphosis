@@ -18,17 +18,6 @@ input[type=submit] {
   border-radius: 5px;
 }
 
-.button {
-  padding: 5px;
-  margin: 10px; 
-  background: #FE7657;
-  color: #ffffff;
-  border: 0 none;
-  cursor: pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
 #status {
   /* avoid an excessively wide status text */
   white-space: pre;
@@ -43,10 +32,10 @@ input[type=submit] {
   padding: 20px;
 }
 
-/*#button {
+#button {
   position: relative;
   text-align: right;
-}*/
+}
 
 #userinput {
   margin-top: 10px;
